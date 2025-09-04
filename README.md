@@ -1,45 +1,29 @@
-# A detailed course to undestand nextjs
+# Fullstack Authentication
 
-This long video was designed to give you an indepth understanding about latest nextjs and how it works. 
+A fullstack authentication system built with **Next.js (TypeScript)**, **MongoDB**, and **Mailtrap**.  
+It includes user registration, login, email verification, and protected routes using middleware.
+
+## Features
+- User signup & login
+- JWT-based authentication
+- Middleware for protected routes
+- Email verification with Mailtrap
+- Secure password hashing
+- Deployed on Vercel
 
 ## Tech Stack
-- Nextjs
-- typescript
-- mongodb
-- mailtrap
+- **Frontend:** Next.js (TypeScript)  
+- **Backend:** Next.js API Routes  
+- **Database:** MongoDB  
+- **Email Service:** Mailtrap  
 
-![Course Image](./nextjs.png)
 
----
-Available on my youtube channel
-[Youtube channel link](https://www.youtube.com/@HiteshChoudharydotcom)
 
-## Getting Started
+## Future Improvements
+- Add **password reset / forgot password** flow  
+- Support for **OAuth (Google/GitHub login)**  
+- Implement **role-based access control** (admin/user)  
+- Add **unit and integration tests** with Jest/React Testing Library  
+- Integrate **CI/CD pipeline** with GitHub Actions  
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-## Assignment
-1. Improve the UI of the application
-2. Add feature of forgot password
-
----
-### Hint:
-For forgot password feature.
-1. User needs a page to enter his email and submit.
-2. Validate if user exists, if yes, send him same token email that we discussed in this course
-3. User clicks on email and get a page to enter new password with a submit button.
-4. As soon as he click submit button, he is sending you a token and new password.
-5. Verify the token and save the new password after encrypting it.
-
----
-## your completed assignments
-
-- Add your repo link here
-- 
