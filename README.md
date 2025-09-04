@@ -26,4 +26,4 @@ It includes user registration, login, email verification, and protected routes u
 - Add **unit and integration tests** with Jest/React Testing Library  
 - Integrate **CI/CD pipeline** with GitHub Actions  
 
-
+---
